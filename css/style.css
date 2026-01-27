@@ -135,6 +135,7 @@ li {
 .mascot img {
     height: 52px;
     width: auto;
+    max-width:52px
 }
 
 /* HAMBURGER */
