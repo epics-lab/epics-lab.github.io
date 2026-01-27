@@ -1,13 +1,10 @@
 body {
     letter-spacing:0.3px;
     padding-bottom:60px;
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../images/background.jpg");
-    background-size:cover;
+    background-color: black;
+    background-image: url("../images/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 a:link {
@@ -25,8 +22,7 @@ li {
     padding: 5px;
 }
 .index_page{
-	background-image: url("../images/cluster/amber.jpg");
-	background-size: cover;
+	/* background: url("../images/background.jpg") center / contain no-repeat; */
 }
 .tall-row {
     margin-top: 40px;
@@ -60,7 +56,6 @@ li {
     overflow: hidden;
     width: 250px;
     height: 250px; 
-    padding-top:23px;
 }
 .profile-text {
     text-align: center;
